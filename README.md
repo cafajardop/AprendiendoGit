@@ -1,4 +1,4 @@
-## Empenzando
+# Empenzando
 README
 | Empezando con Git |
 | ------------- |
@@ -11,7 +11,7 @@ README
 | Next - Next - Next|
 | Use the OpenSSL Library|
 
-# Comandos
+## Comandos
 | Version |
 | ------------- |
 | Comandos|
@@ -20,7 +20,7 @@ README
 | git help |
 | git help commit => sabemos la funcionalidad |
 
-# Configurar Git
+## Configurar Git
 | Funcionalidades |
 | ------------- |
 | git config --global user.name|
@@ -31,7 +31,7 @@ README
 | :q + Enter|
 | http://www.initializr.com/|
 
-# Reconstruir proyecto 
+## Reconstruir proyecto 
 | Comando | Descripción |
 | ------------- | ------------- |
 | git init  | Iniciar el proyecto (Repositorio Local)|
@@ -41,24 +41,24 @@ README
 | git checkout -- . | Si por accidente daño algo el me sirve el siguiente comando|
 | git add README.md | Si solo quiero agregar un solo archivo|
 
-# Agregar todo al repo
+## Agregar todo al repo
 | Comando | Descripción |
 | ------------- | ------------- |
 | git remote add origin https://github.com/cafajardop/AprendiendoGit.git | agregar al repositorio|
 | git push -u origin master | Comando para guardar todo el proyecto |
 
-# Ver un commit en particular
+## Ver un commit en particular
 | Comando | Descripción |
 | ------------- | ------------- |
 | git log | Siempre se ven del mas nuevo al mas viejo|
 | git config core.autocrlf true | Siempre se ven del mas nuevo al mas viejo|
 
-# Si quiero agregar varios archivos que terminen en una extesion .png ejemplo
+## Si quiero agregar varios archivos que terminen en una extesion .png ejemplo
 | Comando | Descripción |
 | ------------- | ------------- |
 |git add *.png | Con este comando agrego al stage solo los cambios que halla hecho con la extesion png|
 
-# Mas comandos
+## Mas comandos
 | Comando | Descripción |
 | ------------- | ------------- |
 | git add css/ | Si quiero agregar todos los archivos que esten en la carpeta de css ejemplo|
@@ -77,7 +77,7 @@ README
 | git status -s | vemos cual se agrego y se ve en verde|
 | git status -s -b | Nos indica la rama|
 
-# Alias y salida del 
+## Alias y salida del 
 | Comando | Descripción |
 | ------------- | ------------- |
 | git config --global alias.lg "log --oneline --decorate --all --graph" | Colocar alias | 
@@ -88,7 +88,7 @@ README
 | git config --global -l | este es un poco mas seguro| 
 | esc +  :wq | salimos |
 
-# Quiz 1
+## Quiz 1
 | Pregunta | Respuesta |
 | ------------- | ------------- |
 | 1-Cuando utilizamos Git, ¿Todos los miembros del equipo tienen una copia del repositorio cental?| Verdadero|
@@ -99,7 +99,7 @@ README
 | 6-¿Qué es el stage o el escenario?| Es un lugar donde pdemos confirmar los archivos y carpetas que conformaran el commit|
 | 7-El comando git s , ¿Es propio de Git?| Falso |
 
-# Quiz 2
+## Quiz 2
 | Pregunta | Respuesta |
 | ------------- | ------------- |
 | 1-¿Una rama se puede definir como una linea del tiempo de commits? | Verdadero |
@@ -108,7 +108,7 @@ README
 | 4-Qué significa el siguiente mensaje en consola? ?? Historial.md | El archivo historia.md actualmente no se le esta dando un |seguimiento en el repositorio
 | 5-Cómo creamos una nueva rama? | git branch rama | 
 
-# Quiz 3
+## Quiz 3
 | Pregunta | Respuesta |
 | ------------- | ------------- |
 | ¿Para qué sirve el stash?| Sirve para colocar el trabajo actual, en un espacio temporal para posteriormente retomarlo |
@@ -118,7 +118,7 @@ README
 | ¿El git rebase, nos puede servir para actualizar el punto de separación de una rama? | Verdadero |
 | ¿Qué puede hacer un rebase interactivo? | Puede unir dos o mas commits en un unico commit puede re-ordenar commits, corregir mensajes de commits par separar commits|
 
-# Devolvere en el tiempo
+## Devolvere en el tiempo
 | Comando | Descripción |
 | ------------- | ------------- |
 | git diff | vemos el historial de cambios|
@@ -126,14 +126,14 @@ README
 | git s | guardarlo en el stage => recordar como hice el alias|
 | git diff --staged | sabemos que diferencia hay con el staged|
 
-# Salir del stated
+## Salir del stated
 | Comando | Descripción |
 | ------------- | ------------- |
 | git reset HEAD README.md|Como salirme del staged es decir no grabar aun por que me arrepenti|
 | git s |verificamos|
 | git checkout -- README.md | Devolverme por completo |
 
-# Revertir Commits 
+## Revertir Commits 
 | Comando | Descripción |
 | ------------- | ------------- |
 | git commit -am "Readme actualiz" | Para agregar todos los elementos al staged|
@@ -291,3 +291,24 @@ crea areas temporales sin afectar la rama master
 - Separar commits
 Sirven para evitar conflictos en los merges
 ver video 38 
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+
+Un **gran poder** requiere _una_ gran *responsabildad*
+>Carlos Fajardo
+## Listas ordenadas
+1. item
+2. item
+3. item
+  * subitem
+  * subitem
+  * subitem
+
+![Batman](https://upload.wikimedia.org/wikipedia/en/1/19/Batman_%28circa_2016%29.png)
+[ir a la imagen](https://upload.wikimedia.org/wikipedia/en/1/19/Batman_%28circa_2016%29.png)
+
+[ir a Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
