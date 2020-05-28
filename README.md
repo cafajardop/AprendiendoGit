@@ -313,3 +313,4 @@ Un **gran poder** requiere _una_ gran *responsabildad*
 
 [ir a Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [ir a turorial markdown](https://www.markdowntutorial.com/)
+[ir a emojis](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
