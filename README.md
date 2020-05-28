@@ -12,3 +12,4 @@ node_modules
 .log
 .editorconfig
 .json
+.Moficar el index.html
