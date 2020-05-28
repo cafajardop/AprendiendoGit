@@ -76,6 +76,8 @@ README
 | git add css/ | agregando una carpeta|
 | git status -s | vemos cual se agrego y se ve en verde|
 | git status -s -b | Nos indica la rama|
+| git remote -v | ver el enlace de la rama|
+| git pull | Descargamos cambios |
 
 # Alias y salida del 
 | Comando | Descripción |
@@ -244,38 +246,27 @@ Luego nos vemos en la master
 git branch 
 
 ========Agregar Tags
-Creamos tag
-git tag superRelease
-Verificamos tag
-git tag
-Borrar tag
-git tag -d supeRelease
+git tag superRelease Creamos tag
+git tag Verificamos tag
+git tag -d supeRelease Borrar tag
+git push --tags => sube todos los tags
 
 ========Agregar Tags con mas modificaciones
-Agregamos tag
-git tag -a v1.0.0 -m "Versión 1.0.0"
-Verificar tag
-git tag
+git tag -a v1.0.0 -m "Versión 1.0.0" | Agregamos tag
+git tag | Verificar tag
 
 ========Agregar Tags en un Hash especifico en el tiempo
-Agregamos tag
-git tag -a v0.1.0 d4456a9 -m "Version alfa"
-Para ver tag
-git show v0.1.0
-
+git tag -a v0.1.0 d4456a9 -m "Version alfa" | Agregamos tag
+git show v0.1.0 | Para ver tag
 
 =======Stash
-Sirve para guardar mis cambios 
-git stash
-para listar mis stash
-git stash list => los salva en un stage temporal
-git stash
-Para recuperar el stash
-git stash pop
-git stash -- git stash save Salva y restaura el último commit
-
-git stash list --stat => podemos ver todos los stash y que se le hizo a cada
-git show stash => nos muetra el stash tambien
+git stash | Sirve para guardar mis cambios 
+git stash list | para listar mis stash 
+git stash | los salva en un stage temporal
+git stash pop | Para recuperar el stash
+--git stash save | Salva y restaura el último commit
+git stash list --stash | podemos ver todos los stash y que se le hizo a cada
+git show stash | nos muetra el stash tambien
 git show stash@{1} nos muestra de manera detallada
 
 Es bueno colocarle los mensajes a los stash
