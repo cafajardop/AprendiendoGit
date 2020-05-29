@@ -144,6 +144,12 @@ README
 | git reset --soft HEAD^ | Pero o sorpresa que se me olvido hacer algo en el mismo commit pues puedo modificar ese commit Recordar que el HEAD hacer referencia al commit que estamos modificando alt + 94 ^ ya nos habilita el commit en donde estabamos haciendo los ajustes y luego |
 | git commit -am "Actualizamos el readme con todos los archivos a omitir"| Finalizar commit |
 
+## Pull Request
+| Git | Descripción |
+| ------------- | ------------- |
+| Fork | Abrir una rama y clonar otro proyecto para posteriormente hacer un pull requests Clase 64|
+| Pull request | Es cuando queremos modificar el proyecto de otra persona  Clase 65|
+| Actualizando el Fork | Ver clase 67 los pasos del Fork|
 ===================Preparando Repos para viajes en el tiempo============
 ==>Clase 21  Min 2:20
 git lg
@@ -305,3 +311,5 @@ Un **gran poder** requiere _una_ gran *responsabildad*
 [ir a Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [ir a turorial markdown](https://www.markdowntutorial.com/)
 [ir a emojis](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+
